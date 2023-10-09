@@ -3,7 +3,6 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-        git 'https://github.com/karteekipatil27/unit-jenkins.git'
         echo "Sucess"
       }
       
