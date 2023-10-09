@@ -4,16 +4,14 @@ pipeline{
     stage('Build'){
       steps{
         git 'https://github.com/karteekipatil27/unit-jenkins.git'
-        bat '.\mvnw clean compolie'
+        echo "Sucess"
       }
       
     }
     stage('Test'){
       steps{
-        
-        bat '.\mvnw test'
+        bat 'python prime_test.py'
       }
-      
     }
   }
 }
