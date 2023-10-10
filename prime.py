@@ -1,7 +1,7 @@
 import math
 
 def is_prime(num):
-     if n < 0:
+     if num < 0:
         return 'Negative numbers are not allowed'
      for i in range(2,int(math.sqrt(num))+1):
         if num%i==0:
