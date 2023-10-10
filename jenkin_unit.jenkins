@@ -19,5 +19,6 @@ pipeline{
             subject: "Test Email",
             body: "Test"
         }
+      }
   }
 }
