@@ -13,4 +13,10 @@ pipeline{
       }
     }
   }
+  post{
+        always{
+            mail to: "patilkarteeki1111@gmail.com",
+            subject: "Test Email",
+            body: "Test"
+        }
 }
