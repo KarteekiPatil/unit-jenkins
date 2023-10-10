@@ -1,3 +1,5 @@
 from prime import is_prime
-a=assert is_prime(7) == True
+assert is_prime(7) == True
+assertEqual(utils.is_prime(-3),
+                         "Negative numbers are not allowed")
 
