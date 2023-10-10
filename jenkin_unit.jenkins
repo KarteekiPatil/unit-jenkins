@@ -17,7 +17,7 @@ pipeline{
     }
   }
   post{
-        always{
+        success{
             mail to: "patilkarteeki1111@gmail.com",
             subject: "Test Email",
             body: "Test"
